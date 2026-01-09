@@ -1,8 +1,5 @@
-def reverseString(s):
-    #code here revers=[]
+#User function Template for python3
 
-    revers=[]
-    for i in range(len(s)-1,-1,-1):
-           revers.append(s[i])
-    revers= "".join(revers)
-    return revers
+def reverseString(s):
+    #Write your code below to reverse s and return it
+    return s[::-1]
