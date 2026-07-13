@@ -10,6 +10,7 @@ class Solution {
         }
         if (result>Integer.MAX_VALUE|| result<Integer.MIN_VALUE) return 0;
         if (neg) return (int)-result;
+        
         return (int)result;
     }
 }
