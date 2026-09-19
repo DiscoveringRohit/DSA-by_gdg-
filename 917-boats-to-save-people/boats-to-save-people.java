@@ -12,7 +12,7 @@ class Solution {
             right--;
             boats++;
         }
-
+        
         return boats;
     }
 }
